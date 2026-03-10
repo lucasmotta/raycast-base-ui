@@ -6,7 +6,8 @@
   "icon": "baseui-icon.png",
   "author": "lucasmotta",
   "categories": [
-    "Documentation"
+    "Documentation",
+    "Developer Tools"
   ],
   "license": "MIT",
   "commands": [

@@ -57,6 +57,7 @@ export default function Command() {
 
   return (
     <List isLoading={isLoading} isShowingDetail searchBarPlaceholder="Search components...">
+      {!isLoading && !data && <List.EmptyView title="No Components Found" description="Could not load Base UI components." />}
       <List.Section title="Components">
         {data?.components.map((item) => <ComponentListItem key={item.title} item={item} icon={Icon.Layers} />)}
       </List.Section>

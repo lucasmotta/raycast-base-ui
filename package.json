@@ -13,7 +13,7 @@
   "commands": [
     {
       "name": "search-components",
-      "title": "Base UI",
+      "title": "Search Base UI Components",
       "description": "Search and browse Base UI component documentation",
       "mode": "view"
     }
